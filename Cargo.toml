@@ -9,7 +9,7 @@ name = "server"
 path = "src/bin/server.rs"
 
 [dependencies]
-diesel = { version = "1.0.0", features = ["mysql"] }
+diesel = { version = "1.4.8", features = ["mysql"] }
 dotenv = "0.9.0"
 rand = "0.7"
 base64 = "0.10.1"
